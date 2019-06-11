@@ -27,3 +27,6 @@
 <!-- wp:paragraph -->
 <p>First up - a basic REST API in PHP. I know. I know. PHP gets kicked and pushed around a lot these days. Remember this though - today's web was built on the PHP stack. PERL, Java, and ASP where players too, but rightly or wrongly PHP held court. We're talking the year 2000 here. Yes, I am that old. I digress. I wanted to create a basic REST API using PHP. I had an idea for a bookmark service. Dang you Google and your need to be everywhere!</p>
 <!-- /wp:paragraph -->
+
+**Link(s) to work**
+1.(https://github.com/eterry28/100-days-of-code/tree/master/bookmarks)
