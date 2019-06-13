@@ -43,3 +43,15 @@ Continuing to push through.
 **Link(s) to work**
 
 1.[Bookmarks API](https://github.com/eterry28/100-days-of-code/tree/master/bookmarks)
+
+### Day 3: June 13, 2019 Thursday
+
+**Today's Progress**: Made a create function for the bookmarks api.
+
+**Thoughts** 
+Continuing to push through. I'll probably add the delete today as well. Then spend some time thinking of auth/tokens.
+
+
+**Link(s) to work**
+
+1.[Bookmarks API](https://github.com/eterry28/100-days-of-code/tree/master/bookmarks)
