@@ -62,12 +62,50 @@ class Bookmark
 
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
-        $this->bookmark_id = $row['bookmark_id'];
-        $this->parent_id = $row['parent_id'];
-        $this->title = $row['title'];
-        $this->url = $row['url'];
-        $this->create_date = $row['create_date'];
+        $this->bookmark_id  = $row['bookmark_id'];
+        $this->parent_id    = $row['parent_id'];
+        $this->title        = $row['title'];
+        $this->url          = $row['url'];
+        $this->create_date  = $row['create_date'];
 
         return $stmt;
+    }
+
+    // create bookmark
+    public function create()
+    {
+        $query = 'INSERT INTO ' . 
+            $this->table . '
+        SET            
+            parent_id = :parent_id,
+            title = :title,
+            url = :url';
+        
+        // prepare
+        $stmt = $this->conn->prepare($query);
+
+        // clean data
+        //$this->bookmark_id  = htmlspecialchars(strip_tags($this->bookmark_id));
+        $this->parent_id    = htmlspecialchars(strip_tags($this->parent_id));
+        $this->title        = htmlspecialchars(strip_tags($this->title));
+        $this->url          = htmlspecialchars(strip_tags($this->url));
+
+        // bind data
+        //$stmt->bindParam(':bookmark_id', $this->bookmark_id);
+        $stmt->bindParam(':parent_id', $this->parent_id);
+        $stmt->bindParam(':title', $this->title);
+        $stmt->bindParam(':url', $this->url);
+
+        print_r($this);
+
+        // execute
+        if($stmt->execute())
+        {
+            return true;
+        }
+
+        // print error if something goes wrong
+        printf("Error: %s. \n", $stmt->error);
+        return false;
     }
 }
