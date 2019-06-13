@@ -31,3 +31,15 @@
 **Link(s) to work**
 
 1.[Bookmarks API](https://github.com/eterry28/100-days-of-code/tree/master/bookmarks)
+
+### Day 2: June 12, 2019 Wednesday
+
+**Today's Progress**: Made a read single function to the bookmarks api.
+
+**Thoughts** 
+Continuing to push through.
+
+
+**Link(s) to work**
+
+1.[Bookmarks API](https://github.com/eterry28/100-days-of-code/tree/master/bookmarks)
