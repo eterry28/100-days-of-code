@@ -46,10 +46,13 @@ Continuing to push through.
 
 ### Day 3: June 13, 2019 Thursday
 
-**Today's Progress**: Made a create function for the bookmarks api.
+**Today's Progress**: 
+1. Made a create function for the bookmarks api.
+2. Made a delete function for the bookmarks api.
 
 **Thoughts** 
 Continuing to push through. I'll probably add the delete today as well. Then spend some time thinking of auth/tokens.
+I managed to get a delete function in.
 
 
 **Link(s) to work**
