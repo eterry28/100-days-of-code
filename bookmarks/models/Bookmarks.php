@@ -96,8 +96,36 @@ class Bookmark
         $stmt->bindParam(':title', $this->title);
         $stmt->bindParam(':url', $this->url);
 
-        print_r($this);
+        print_r($stmt);
 
+        // execute
+        if($stmt->execute())
+        {
+            return true;
+        }
+
+        // print error if something goes wrong
+        printf("Error: %s. \n", $stmt->error);
+        return false;
+    }
+
+    // delete bookmark
+    public function delete()
+    {
+        $query = 'DELETE FROM ' . 
+            $this->table . '
+        WHERE            
+            bookmark_id = :bookmark_id';
+        
+        // prepare
+        $stmt = $this->conn->prepare($query);
+
+        // clean data
+        $this->bookmark_id  = htmlspecialchars(strip_tags($this->bookmark_id));
+        
+        // bind data
+        $stmt->bindParam(':bookmark_id', $this->bookmark_id);
+        
         // execute
         if($stmt->execute())
         {
