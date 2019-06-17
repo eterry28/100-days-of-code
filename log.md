@@ -58,3 +58,16 @@ I managed to get a delete function in.
 **Link(s) to work**
 
 1.[Bookmarks API](https://github.com/eterry28/100-days-of-code/tree/master/bookmarks)
+
+### Day 4: June 14, 2019 Friday
+
+**Today's Progress**: 
+1. Made a read single function for users in the bookmarks api.
+
+**Thoughts** 
+Continuing to push through. I really need to spec things out that do not fit the traditional CRUD mold. Auth can be tricky. Oh my...I guess a website or browser plugin would be nice.
+
+
+**Link(s) to work**
+
+1.[Bookmarks API](https://github.com/eterry28/100-days-of-code/tree/master/bookmarks)
