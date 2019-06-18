@@ -71,3 +71,17 @@ Continuing to push through. I really need to spec things out that do not fit the
 **Link(s) to work**
 
 1.[Bookmarks API](https://github.com/eterry28/100-days-of-code/tree/master/bookmarks)
+
+
+### Day 5: June 17, 2019 Monday
+
+**Today's Progress**: 
+1. 
+
+**Thoughts** 
+Continued working through the complete web development course on [udemy.]https://intouchqa.udemy.com/the-complete-web-development-bootcamp/
+
+
+**Link(s) to work**
+
+1.[BMI - Javascript](https://github.com/eterry28/100-days-of-code/tree/master/bmi)
