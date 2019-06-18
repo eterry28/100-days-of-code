@@ -84,4 +84,4 @@ Continued working through the complete web development course on [udemy.]https:/
 
 **Link(s) to work**
 
-1.[BMI - Javascript](https://github.com/eterry28/100-days-of-code/tree/master/bmi)
+1.[BMI - Javascript](https://github.com/eterry28/100-days-of-code/tree/master/BMI)
