@@ -98,4 +98,4 @@ I threw this together just trying to get something up. I overcomplicated it. I w
 
 **Link(s) to work**
 
-1.[Shares](https://github.com/eterry28/100-days-of-code/tree/master/share)
+1.[Shares](https://github.com/eterry28/100-days-of-code/tree/master/socialshare)
