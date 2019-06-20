@@ -85,3 +85,17 @@ Continued working through the complete web development course on [udemy.]https:/
 **Link(s) to work**
 
 1.[BMI - Javascript](https://github.com/eterry28/100-days-of-code/tree/master/BMI)
+
+
+### Day 6: June 18, 2019 Tuesday
+
+**Today's Progress**: 
+1. Made a single php page for social sharing buttons.
+
+**Thoughts** 
+I threw this together just trying to get something up. I overcomplicated it. I will simplify using separate css, javascript, and html files.
+
+
+**Link(s) to work**
+
+1.[Shares](https://github.com/eterry28/100-days-of-code/tree/master/share)
