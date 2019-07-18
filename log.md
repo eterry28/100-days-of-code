@@ -101,15 +101,16 @@ I threw this together just trying to get something up. I overcomplicated it. I w
 1.[Shares](https://github.com/eterry28/100-days-of-code/tree/master/socialshare)
 
 
-### Day 1. Again : July 18, 2019 Thursday
+### Day 7 : July 18, 2019 Thursday
 
 **Today's Progress**: 
 1. Made a better solution for social sharing buttons. With html, css, and javascript.
 
 **Thoughts** 
+Quite a bit of a break there. I probably should restart the clock on the challenge. We'll see how it goes.
 There are lots of pitfalls out there when it comes to front-end work. One can create powerful websites with a bit of skill.
 
 
 **Link(s) to work**
 
-1.[Shares](https://github.com/eterry28/100-days-of-code/tree/master/socialshare/)
+1.[Shares](https://github.com/eterry28/100-days-of-code/tree/master/socialshare/better-way/)
