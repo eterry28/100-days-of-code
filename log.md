@@ -114,3 +114,29 @@ There are lots of pitfalls out there when it comes to front-end work. One can cr
 **Link(s) to work**
 
 1.[Shares](https://github.com/eterry28/100-days-of-code/tree/master/socialshare/better-way/)
+
+### Day 8 : July 20, 2019 Saturday
+
+**Today's Progress**: 
+1. Comrade Cola finally made an appearence. Used a vending machine as the problem to solve.
+
+**Thoughts** 
+I have been knocking around the idea of The Comrade Cola Company as a way to help make a story to go along with the code. 
+
+
+**Link(s) to work**
+
+1.[Shares](https://github.com/eterry28/100-days-of-code/tree/master/comrade-cola)
+
+### Day 9 : July 20, 2019 Monday
+
+**Today's Progress**: 
+1. Broke up the big class into more manageable parts.
+
+**Thoughts** 
+Going through this refactor was a blast. Also had fun with learning more about the state design pattern. What's next?
+
+
+**Link(s) to work**
+
+1.[Shares](https://github.com/eterry28/100-days-of-code/tree/master/comrade-cola/CCM)
