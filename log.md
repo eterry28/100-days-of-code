@@ -140,3 +140,15 @@ Going through this refactor was a blast. Also had fun with learning more about t
 **Link(s) to work**
 
 1.[Shares](https://github.com/eterry28/100-days-of-code/tree/master/comrade-cola/CCM)
+
+
+### Day 10 : July 29, 2019 Monday
+
+**Today's Progress**:
+1. Created a quick stand alone flavor generator for The Comrade Cola Company.
+
+**Thoughts**:
+I am really enjoying the opportunity to play around with this Comrade Cola Universe. Sorry - Everything is a Universe nowadays. I added a huge list of flavors that the Chairwoman would enjoy. I did not want to clutter up the code with all of those though.
+
+**Link(s) to work**:
+1.[Drink Generator](https://github.com/eterry28/100-days-of-code/tree/master/comrade-cola/drink-generator)
