@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 1: December 31, 2019 Monday
+
+**Today's Progress**: I have jumped on the Christmas Tree generation bandwagon.
+
+**Thoughts** 100 consecutive days of coding is tough. Life finds a way to get in the way. I plan on figuring out a way to set aside 100 hours in the first quarter.
+
+**Link(s) to work**
+[Christmas Tree](https://github.com/eterry28/100-days-of-code/tree/master/ChristmasTree)
+
+
 
 ### Day 0: June 6, 2019 Monday
 
