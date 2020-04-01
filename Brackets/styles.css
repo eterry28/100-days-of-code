@@ -1,0 +1,189 @@
+html {
+    background: #000000;
+    opacity: 100%;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.subnav {
+    position: relative;
+    width: 100%;
+    display: flex;
+    background: #fff;
+}
+
+.heading h2 {
+    margin: .5rem 30px .5rem 0;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.row.small-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row.small-gutters > [class^="col-"],
+.row.small-gutters > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+.subnav .heading{
+    position: relative;
+    display: inline-block;
+    margin: 23px 30px;    
+}
+
+.subnav .brackets{
+    position: relative;
+    display: inline-block;
+    margin: 23px 30px;
+}
+
+.brackets select {
+    border: 1px solid #444;
+    width: 100px;
+    padding: 6px;    
+}
+
+.subnav .main{
+    position: relative;
+    margin: 23px 0 0;
+}
+
+.subnav .main li {
+    display: inline-block;    
+    border-bottom: solid 1px transparent;
+    margin: 8px 30px;
+    text-transform: uppercase;
+}
+
+.wrap {
+    margin: 0 auto;
+}
+
+.bracket-wrapper {            
+    background-color: #F6F8FA;
+    padding: 10px;
+    margin: 0 auto;
+    width: 98%;
+    max-height: 100%;
+}
+
+#wrapper {
+    min-height: 100%;
+  height: auto !important;
+  margin-bottom: -30px;
+   background: #fff;
+}
+
+#footer {
+    background: #0d8788;
+  height: 30px;
+}
+
+.match {
+    display: table;
+    width: 160px;
+    height: 80px;
+    font-size: .75em;
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+    text-align: left;
+}
+
+.status {
+    width: 160px;
+    display: table;
+    height: 22px;
+    padding: 0 4px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.contenders {
+    padding: 5px 5px 0;
+}
+
+.contender { 
+    display: table;
+    min-height: 33px;
+    padding: 2px 3px;
+    font-size: 1.1em;
+}
+
+.round-1 .match.match-0, .round-1 .match.match-1, 
+.round-1 .match.match-2, .round-1 .match.match-3, 
+.round-1 .match.match-4, .round-1 .match.match-5, 
+.round-1 .match.match-6, .round-1 .match.match-7 {
+    margin: 10px auto;
+}
+
+.round-2 .match.match-0, .round-2 .match.match-1, 
+.round-2 .match.match-2, .round-2 .match.match-3 {
+    margin: 100px auto;
+}
+
+.round-2 .match.match-0 {
+    position: relative;
+    top:-20px;
+}
+
+
+.round-3 .match.match-0, .round-3 .match.match-1 {
+    margin: 250px auto;
+}
+
+.round-3 .match.match-0 {
+    position: relative;
+    top:-60px;
+}
+
+.round-4 .match.match-0 {
+    margin: 400px auto;
+}
+
+
+.arrow-right{
+    position: relative;
+    padding: 30px;
+    top: 200px;
+    left: 200px
+  }
+   
+  .arrow-right:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 10%;
+    background: red;
+    -webkit-transform: skew(45deg, 0deg);
+    -moz-transform: skew(45deg, 0deg);
+    -ms-transform: skew(45deg, 0deg);
+    -o-transform: skew(45deg, 0deg);
+    transform: skew(45deg, 0deg);
+  }
+  .arrow-right:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: 60%;
+    height: 100%;
+    width: 10%;
+    background: red;
+    -webkit-transform: skew(-45deg, 0deg);
+    -moz-transform: skew(-45deg, 0deg);
+    -ms-transform: skew(-45deg, 0deg);
+    -o-transform: skew(-45deg, 0deg);
+    transform: skew(-45deg, 0deg);
+  }
