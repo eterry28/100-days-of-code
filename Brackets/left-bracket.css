@@ -1,0 +1,300 @@
+.left-arrow-top-0:before {
+    content: '';
+    position: absolute;
+    top: -18px;
+    left: -10px;
+    height: 1px;
+    width: 120px;
+    background: #00f;
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+  }
+
+  .left-arrow-top-0:after {
+    content: '';
+    position: absolute;
+    top: -18px;
+    right: -90px;
+    height: 100px;
+    width: 1px;
+    background: #00f;
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+  }
+
+  .left-arrow-bottom-0:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    height: 1px;
+    width: 120px;
+    background: #00f;
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+  }
+  
+  .left-arrow-bottom-0:after {
+    content: '';
+    position: absolute;
+    top: -36px;
+    right: -90px;
+    height: 32px;
+    width: 1px;
+    background: #00f;
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+  }
+
+
+  .left-arrow-top-0.arrow-0{
+    position: relative;
+    padding: 10px;
+    top: 200px;
+    left: 210px
+  }
+
+  .left-arrow-bottom-0.arrow-0{
+    position: relative;
+    padding: 10px;
+    top: 344px;
+    left: 192px;
+  }
+
+
+  .left-arrow-top-0.arrow-1{
+    position: relative;
+    padding: 10px;
+    top: 410px;
+    left: 172px;
+  }
+
+  .left-arrow-bottom-0.arrow-1{
+    position: relative;
+    padding: 10px;
+    top: 554px;
+    left: 152px;
+  }
+
+  .left-arrow-top-0.arrow-2{
+    position: relative;
+    padding: 10px;
+    top: 620px;
+    right: -130px;
+  }
+
+  .left-arrow-bottom-0.arrow-2{
+    position: relative;
+    padding: 10px;
+    top: 762px;
+    left: 112px;
+  }
+
+  .left-arrow-top-0.arrow-3{
+    position: relative;
+    padding: 10px;
+    top: 830px;
+    left: 92px;
+  }
+
+  .left-arrow-bottom-0.arrow-3{
+    position: relative;
+    padding: 10px;
+    top: 974px;
+    left: 72px;
+  }
+
+
+  .left-arrow-top-1:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    height: 1px;
+    width: 120px;
+    background: #00f;
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+  }
+  .left-arrow-top-1:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: -90px;
+    height: 100px;
+    width: 1px;
+    background: #00f;
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+  }
+
+  .left-arrow-bottom-1:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    height: 1px;
+    width: 120px;
+    background: #00f;
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+  }
+  
+  .left-arrow-bottom-1:after {
+    content: '';
+    position: absolute;
+    top: -84px;
+    right: -90px;
+    height: 80px;
+    width: 1px;
+    background: #00f;
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+  }
+  
+  .left-arrow-top-1.arrow-0{
+    position: relative;
+    padding: 10px;
+    top: 246px;
+    left: 250px;
+  }
+
+  .left-arrow-bottom-1.arrow-0{
+    position: relative;
+    padding: 10px;
+    top: 502px;
+    left: 230px;
+  }
+
+  .left-arrow-top-1.arrow-1{
+    position: relative;
+    padding: 10px;
+    top: 664px;
+    left: 210px;
+  }
+
+  .left-arrow-bottom-1.arrow-1{
+    position: relative;
+    padding: 10px;
+    top: 924px;
+    left: 190px;
+  }
+
+  .left-arrow-top-2:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    height: 1px;
+    width: 120px;
+    background: #00f;
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+  }
+  .left-arrow-top-2:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: -90px;
+    height: 202px;
+    width: 1px;
+    background: #00f;
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+  }
+
+  .left-arrow-bottom-2:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    height: 1px;
+    width: 120px;
+    background: #00f;
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+  }
+  
+  .left-arrow-bottom-2:after {
+    content: '';
+    position: absolute;
+    top: -204px;
+    right: -90px;
+    height: 200px;
+    width: 1px;
+    background: #00f;
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+  }
+  
+  .left-arrow-top-2.arrow-0{
+    position: relative;
+    padding: 10px;
+    top: 358px;
+    left: 366px;
+  }
+
+  .left-arrow-bottom-2.arrow-0{
+    position: relative;
+    padding: 10px;
+    top: 824px;
+    left: 346px;
+  }
+
+  .left-arrow-bottom-3:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    height: 350px;
+    width: 1px;
+    background: #00f;
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+  }
+  
+  .left-arrow-bottom-3.arrow-0{
+    position: relative;
+    padding: 10px;
+    top: 630px;
+    left: 520px;
+  }
