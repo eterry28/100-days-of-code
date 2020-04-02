@@ -11,8 +11,26 @@ body {
     height: 100%;
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: #ddd;}
+
 .winner {
-    border: 2px solid #0e0;
+    border: 2px solid #0aa;
     width: 100%;
 }
 
@@ -120,10 +138,18 @@ body {
 
 .contender { 
     display: table;
+    width:100%;
     min-height: 33px;
     padding: 2px 3px;
     font-size: 1.1em;
 }
+
+.contender:hover { 
+    width:100%;
+    background-color: #0aa;
+}
+
+.contender:hover .dropdown-content { display: block; }
 
 .round-1 .match.match-0, .round-1 .match.match-1, 
 .round-1 .match.match-2, .round-1 .match.match-3, 
