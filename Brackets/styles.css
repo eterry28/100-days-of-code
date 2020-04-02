@@ -11,6 +11,11 @@ body {
     height: 100%;
 }
 
+.winner {
+    border: 2px solid #0e0;
+    width: 100%;
+}
+
 .subnav {
     position: relative;
     width: 100%;
@@ -129,14 +134,28 @@ body {
 
 .round-2 .match.match-0, .round-2 .match.match-1, 
 .round-2 .match.match-2, .round-2 .match.match-3 {
-    margin: 100px auto;
+    margin: 74px auto;
 }
 
 .round-2 .match.match-0 {
     position: relative;
-    top:-20px;
+    top: -11px;
 }
 
+.round-2 .match.match-1 {
+    position: relative;
+    top: 30px;
+}
+
+.round-2 .match.match-2 {
+    position: relative;
+    top: 70px;
+}
+
+.round-2 .match.match-3 {
+    position: relative;
+    top: 114px;
+}
 
 .round-3 .match.match-0, .round-3 .match.match-1 {
     margin: 250px auto;
@@ -144,46 +163,18 @@ body {
 
 .round-3 .match.match-0 {
     position: relative;
-    top:-60px;
+    top:-75px;
 }
 
 .round-4 .match.match-0 {
-    margin: 400px auto;
+    margin: 380px auto;
 }
 
 
-.arrow-right{
+.round-5 .match.match-0 {
     position: relative;
-    padding: 30px;
-    top: 200px;
-    left: 200px
-  }
-   
-  .arrow-right:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 10%;
-    background: red;
-    -webkit-transform: skew(45deg, 0deg);
-    -moz-transform: skew(45deg, 0deg);
-    -ms-transform: skew(45deg, 0deg);
-    -o-transform: skew(45deg, 0deg);
-    transform: skew(45deg, 0deg);
-  }
-  .arrow-right:after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    right: 60%;
-    height: 100%;
-    width: 10%;
-    background: red;
-    -webkit-transform: skew(-45deg, 0deg);
-    -moz-transform: skew(-45deg, 0deg);
-    -ms-transform: skew(-45deg, 0deg);
-    -o-transform: skew(-45deg, 0deg);
-    transform: skew(-45deg, 0deg);
-  }
+    margin: 380px auto;
+    top:-500px;
+}
+
+
