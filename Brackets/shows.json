@@ -1,0 +1,357 @@
+[
+    {
+        "id" : 1,
+        "name": "227",
+        "url": "https://www.youtube.com/watch?v=e7TaBkCC5o8"
+    },
+    {
+        "id" : 2,
+        "name": "A Different World",
+        "url": "https://www.youtube.com/watch?v=I9lVlt5FpYc"
+    },
+    {
+        "id" : 3,
+        "name": "All in the Family",
+        "url": "https://www.youtube.com/watch?v=fye4uY3pCvo"
+    },
+    {
+        "id" : 4,
+        "name": "Barney Miller",
+        "url": "https://www.youtube.com/watch?v=roHYXrLhmHc"
+    },
+    {
+        "id" : 5,
+        "name": "Battlestar Galatica",
+        "url": "https://www.youtube.com/watch?v=pHp9oZPqs8E"
+    },
+    {
+        "id" : 6,
+        "name": "Bewitched",
+        "url": "https://www.youtube.com/watch?v=jdNhPUXf6Lc"
+    },
+    {
+        "id" : 7,
+        "name": "Bosom Buddies",
+        "url": "https://youtu.be/3UI_JwF3cnA?t=34"
+    },
+    {
+        "id" : 8,
+        "name": "Charlie's Angels",
+        "url": "https://youtu.be/SkhQOva1cNw?t=7"
+    },
+    {
+        "id" : 9,
+        "name": "Cheers",
+        "url": "https://www.youtube.com/watch?v=rS0VQOHX7lM"
+    },
+    {
+        "id" : 10,
+        "name": "CHiPs",
+        "url": "https://www.youtube.com/watch?v=D5-bD372v5s"
+    },
+    {
+        "id" : 11,
+        "name": "Dallas",
+        "url": "https://www.youtube.com/watch?v=8sKX3tWaOew"
+    },
+    {
+        "id" : 12,
+        "name": "Diff'rent Strokes",
+        "url": "https://www.youtube.com/watch?v=6jJIVK-daGk"
+    },
+    {
+        "id" : 13,
+        "name": "Dragnet",
+        "url": "https://www.youtube.com/watch?v=hDVVplAweZw"
+    },
+    {
+        "id" : 14,
+        "name": "Fame",
+        "url": "https://www.youtube.com/watch?v=tze87LfeOtY"
+    },
+    {
+        "id" : 15,
+        "name": "Family Matters",
+        "url": "https://www.youtube.com/watch?v=kYvNiKwWvhk"
+    },
+    {
+        "id" : 16,
+        "name": "Family Ties ",
+        "url": "https://www.youtube.com/watch?v=7H3JuQUQTLQ"
+    },
+    {
+        "id" : 17,
+        "name": "Fantasy Island",
+        "url": "https://youtu.be/0_agGCODq-U?t=10"
+    },
+    {
+        "id" : 18,
+        "name": "Get Smart",
+        "url": "https://youtu.be/AJ6gdRfBW6c?t=9"
+    },
+    {
+        "id" : 19,
+        "name": "Gillian's Island",
+        "url": "https://www.youtube.com/watch?v=akKetxW0rWg"
+    },
+    {
+        "id" : 20,
+        "name": "Good Times",
+        "url": "https://www.youtube.com/watch?v=s6gNo4-1r6k"
+    },
+    {
+        "id" : 21,
+        "name": "Green Acres",
+        "url": "https://www.youtube.com/watch?v=umS3XM3xAPk"
+    },
+    {
+        "id" : 22,
+        "name": "Happy Days",
+        "url": "https://www.youtube.com/watch?v=slvGKU7HF6M"
+    },
+    {
+        "id" : 23,
+        "name": "Hawaii Five-O",
+        "url": "https://youtu.be/CpxJsy8nfjA?t=28"
+    },
+    {
+        "id" : 24,
+        "name": "Head of the Class",
+        "url": "https://www.youtube.com/watch?v=gxMxfi4wSe4"
+    },
+    {
+        "id" : 25,
+        "name": "Hong Kong Phooey",
+        "url": "https://youtu.be/6dum1WJXJMA?t=9"
+    },
+    {
+        "id" : 26,
+        "name": "I Dream of Jeannie",
+        "url": "https://www.youtube.com/watch?v=szECpTGoXFk"
+    },
+    {
+        "id" : 27,
+        "name": "In Living Color",
+        "url": "https://www.youtube.com/watch?v=NXNM0dTzHOE"
+    },
+    {
+        "id" : 28,
+        "name": "Inspector Gadget",
+        "url": "https://www.youtube.com/watch?v=EcF2LOaLgA0"
+    },
+    {
+        "id" : 29,
+        "name": "Knight Rider",
+        "url": "https://www.youtube.com/watch?v=oNyXYPhnUIs"
+    },
+    {
+        "id" : 30,
+        "name": "Kojak",
+        "url": "https://www.youtube.com/watch?v=P_e6_j5YSeE"
+    },
+    {
+        "id" : 31,
+        "name": "Laverne & Shirley",
+        "url": "https://youtu.be/IAnecJl_Z1A?t=9"
+    },
+    {
+        "id" : 32,
+        "name": "Living Single",
+        "url": "https://www.youtube.com/watch?v=sMrmctL_FgY"
+    },
+    {
+        "id" : 33,
+        "name": "Married...With Children",
+        "url": "https://www.youtube.com/watch?v=p8t5cOjlEPU"
+    },
+    {
+        "id" : 34,
+        "name": "Martin",
+        "url": "https://www.youtube.com/watch?v=tMGPoAq-pSY"
+    },
+    {
+        "id" : 35,
+        "name": "MASH",
+        "url": "https://www.youtube.com/watch?v=v605dDOO-Dw"
+    },
+    {
+        "id" : 36,
+        "name": "Mission Impossible ",
+        "url": "https://www.youtube.com/watch?v=wwpXUn2dF5c"
+    },
+    {
+        "id" : 37,
+        "name": "Mister Rogers' Neighborhood",
+        "url": "https://www.youtube.com/watch?v=eInUUfyqa5o"
+    },
+    {
+        "id" : 38,
+        "name" : "Moesha",
+        "url": "https://www.youtube.com/watch?v=5rqF--xeup8"
+    },
+    {
+        "id" : 39,
+        "name": "One Day at a Time",
+        "url": "https://www.youtube.com/watch?v=aDSRGnS7l3A"
+    },
+    {
+        "id" : 40,
+        "name": "Pink Panther",
+        "url": "https://www.youtube.com/watch?v=HhHwnrlZRus"
+    },
+    {
+        "id" : 41,
+        "name": "Sanford and Son",
+        "url": "https://www.youtube.com/watch?v=1WqazleR3FE"
+    },
+    {
+        "id" : 42,
+        "name": "Saved by the Bell",
+        "url": "https://www.youtube.com/watch?v=jr0Lng3mhL4"
+    },
+    {
+        "id" : 43,
+        "name": "Scooby Doo Where are You",
+        "url": "https://www.youtube.com/watch?v=0_C2HJvtRDY"
+    },
+    {
+        "id" : 44,
+        "name": "Sister Sister",
+        "url": "https://www.youtube.com/watch?v=T4JcOZJi5JQ"
+    },
+    {
+        "id" : 45,
+        "name": "Sesame Street",
+        "url": "https://www.youtube.com/watch?v=KrsIX-OajaY"
+    },
+    {
+        "id" : 46,
+        "name": "Speed Racer",
+        "url": "https://www.youtube.com/watch?v=suCm1w_KTiY"
+    },
+    {
+        "id" : 47,
+        "name": "Spongebob Squarepants",
+        "url": "https://www.youtube.com/watch?v=r9L4AseD-aA"
+    },
+    {
+        "id" : 48,
+        "name": "Starsky and Hutch",
+        "url": "https://www.youtube.com/watch?v=rqajVHN7hfc"
+    },
+    {
+        "id" : 49,
+        "name": "Taxi",
+        "url": "https://www.youtube.com/watch?v=3J8euJefuG0"
+    },
+    {
+        "id" : 50,
+        "name": "The Addams Family",
+        "url": "https://youtu.be/ZZ5IWRz78DY?t=10"
+    },
+    {
+        "id" : 51,
+        "name": "The Andy Griffith Show",
+        "url": "https://www.youtube.com/watch?v=CpioDa-xHbw"
+    },
+    {
+        "id" : 52,
+        "name": "The Beverly Hillbillies",
+        "url": "https://youtu.be/OvE9zJgm8OY?t=31"
+    },
+    {
+        "id" : 53,
+        "name": "The Brady Bunch",
+        "url": "https://www.youtube.com/watch?v=d2JooUMsDdA"
+    },
+    {
+        "id" : 54,
+        "name": "The Cosby Show",
+        "url": "https://www.youtube.com/watch?v=fxch2td-uNA"
+    },
+    {
+        "id" : 55,
+        "name": "The Dukes of Hazzard",
+        "url": "https://www.youtube.com/watch?v=sMI6etur0d4"
+    },
+    {
+        "id" : 56,
+        "name": "The Facts of Life",
+        "url": "https://youtu.be/d9_rv9mZ4hQ?t=9"
+    },
+    {
+        "id" : 57,
+        "name": "The Fresh Prince of Bel-Air",
+        "url": "https://www.youtube.com/watch?v=AVbQo3IOC_A"
+    },
+    {
+        "id" : 58,
+        "name": "The Jeffersons",
+        "url": "https://www.youtube.com/watch?v=L09qnRfZY-k"
+    },
+    {
+        "id" : 59,
+        "name": "The Jetsons",
+        "url": "https://www.youtube.com/watch?v=tTq6Tofmo7E"
+    },
+    {
+        "id" : 60,
+        "name": "The Love Boat",
+        "url": "https://www.youtube.com/watch?v=m_wFEB4Oxlo"
+    },
+    {
+        "id" : 61,
+        "name": "The Mary Tyler Moore Show",
+        "url": "https://www.youtube.com/watch?v=ZNKOt2k7Pm4"
+    },
+    {
+        "id" : 62,
+        "name": "The Muppet Show",
+        "url": "https://www.youtube.com/watch?v=hEinCgoA48E"
+    },
+    {
+        "id" : 63,
+        "name": "The Odd Couple",
+        "url": "https://www.youtube.com/watch?v=Af1h4ibpKJA"
+    },
+    {
+        "id" : 64,
+        "name": "The Partridge Family   ",
+        "url": "https://www.youtube.com/watch?v=lT2T49yP2ew"
+    },
+    {
+        "id" : 65,
+        "name": "The Wonder Years",
+        "url": "https://www.youtube.com/watch?v=4s8J5s_xfU0"
+    },
+    {
+        "id" : 66,
+        "name": "Three's Company",
+        "url": "https://www.youtube.com/watch?v=chE0nqBoe-g"
+    },
+    {
+        "id" : 67,
+        "name": "Underdog",
+        "url": "https://www.youtube.com/watch?v=Pa1fH0SvGPg"
+    },
+    {
+        "id" : 68,
+        "name": "Welcome Back Kotter",
+        "url": "https://www.youtube.com/watch?v=Mmm3KTa601s"
+    },
+    {
+        "id" : 69,
+        "name": "What's Happening",
+        "url": "https://www.youtube.com/watch?v=Apv9Kgkf-z8"
+    },
+    {
+        "id" : 70,
+        "name": "WKRP in Cincinnati",
+        "url": "https://youtu.be/YQvCNLIVydM?t=12"
+    },
+    {
+        "id" : 71,
+        "name": "Wonder Woman",
+        "url": "https://youtu.be/imc_qG8Re2Q?t=10"
+    }
+]
