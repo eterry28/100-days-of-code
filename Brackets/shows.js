@@ -95,8 +95,8 @@ function printSortedShows(sortedShows)
   html += "</ol>";
   */
 
-  document.getElementById("left").innerHTML = left;
-  document.getElementById("right").innerHTML = right;
+  //document.getElementById("left").innerHTML = left;
+  //document.getElementById("right").innerHTML = right;
 }
 
 /*
