@@ -1,0 +1,477 @@
+[
+    {
+        "id": 1,
+        "name": "The Flintstones",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Andy Griffith Show",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Twilight Zone",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Star Trek: The Original Series",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Gilligan's Island",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Bewitched",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Beverly Hillbillies",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Addams Family",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Get Smart",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Carol Burnett Show",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Munsters",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Jetsons",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Batman",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Dick Van Dyke Show",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Hogan's Heroes",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Leave It to Beaver",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "I Dream of Jeannie",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Mission: Impossible",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Bonanza",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Wild Wild West",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Monkees",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Lost in Space",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Alfred Hitchcock Presents",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Man from U.N.C.L.E.",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Rocky and Bullwinkle Show",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Hawaii Five-O",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Green Acres",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "My Three Sons",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Outer Limits",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Gunsmoke",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "McHale's Navy",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Rifleman",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Avengers",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Brady Bunch",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Perry Mason",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Red Skelton Show",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Mister Ed",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Rowan & Martin's Laugh-In",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Scooby-Doo",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Candid Camera",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Bob Newhart Show",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Petticoat Junction",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Gomer Pyle, U.S.M.C.",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "F Troop",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Dragnet",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "My Favorite Martian",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Lucy Show",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Dean Martin Show",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "That Girl",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Flipper",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Huckleberry Hound Show",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Smothers Brothers Comedy Hour",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Captain Kangaroo",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Rawhide",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Rat Patrol",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Saint",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Untouchables",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Have Gun – Will Travel",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Top Cat",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Love, American Style",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Jackie Gleason Show",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Mannix",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Dark Shadows",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Flying Nun",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Family Affair",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Green Hornet",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Big Valley",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Sesame Street",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Mod Squad",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Famous Adventures of Mr. Magoo",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Patty Duke Show",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Hazel",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Password",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Ironside",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Marcus Welby, M.D.",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Ed Sullivan Show",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Donna Reed Show",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "It Takes a Thief",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Courtship of Eddie's Father",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Gidget",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "I Spy",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Adventures of Ozzie and Harriet",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Land of the Giants",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The High Chaparral",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Many Loves of Dobie Gillis",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Father Knows Best",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Secret Agent Man",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Andy Williams Show",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Danny Thomas Show",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Wagon Train",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Prisoner",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Mr. Lucky",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Virginian",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "Dennis the Menace",
+        "url": ""
+    },
+    {
+        "id": 1,
+        "name": "The Lawrence Welk Show",
+        "url": ""
+    }
+]

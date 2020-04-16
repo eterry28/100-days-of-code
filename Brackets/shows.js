@@ -1,23 +1,45 @@
 var shows;
 var sortedShows;
+var defaultChoice = 0;
+let selectedBracket = getSelectedBracket(defaultChoice);
+loadBracket(selectedBracket);
 
-const request = async () => {
+document.querySelector("#bracket-selector").addEventListener("change", function(){ 
+  var choice = document.querySelector("#bracket-selector").value;
+  var bracket = getSelectedBracket(choice);
+  loadBracket(bracket);
+});
 
-  const response = await fetch('shows.json');
-  shows = await response.json();
-  //console.log(shows);
-
-  sortedShows = shows.sort(function (a, b) { return 0.5 - Math.random() });
-  //console.log(sortedShows);
-  displayRound1(sortedShows);
+function loadBracket(selectedBracket)
+{
+  const request = async () => {
+    const response = await fetch(selectedBracket);
+    shows = await response.json();
+    sortedShows = shows.sort(function (a, b) { return 0.5 - Math.random() });
+    displayRound1(sortedShows);
+  }
+  request();
 }
 
-request();
+function getSelectedBracket(option)
+{
+  var selected = "shows.json";
+  switch(option){
+    case "1":
+      selected = "60s.json";
+      break;
+    case "2":
+      selected = "70s.json";
+      break;
+    default:
+      break;
+  }
+  return selected;
+}
 
 function displayRound1(sortedShows) {
   let nextId = 32;
-  for (i=0; i<32; i++) {
-    
+  for (i=0; i<32; i++) {  
     let Contender = sortedShows[i];
     let contenderId = "#contender"+i;
     let listenId = "#listen"+i;
@@ -27,27 +49,22 @@ function displayRound1(sortedShows) {
     if(i%2 == 1){
       nextId++;
     }
-
   }
 }
 
-function ContenderMatch(object, contenderId, listenId, voteId, nextId) {
-  //console.table(object, contenderId, listenId, voteId, nextId);
+function ContenderMatch(object, contenderId, listenId, voteId, nextId) {  
   document.querySelector(contenderId).innerHTML = object.name;
   document.querySelector(listenId).href = object.url;
-  document.getElementById(voteId).addEventListener("click", function(){ 
-    //document.querySelector(contenderId).classList.add("winner");
+  document.getElementById(voteId).addEventListener("click", function(){     
     vote(object, nextId);
   });
 }
 
 function vote(contender, nextId)
 {
-  //alert("Voting for: " + contender.name + ". Goes to: " + nextId);
   document.querySelector("#contender" + nextId).innerHTML = contender.name;  
   document.querySelector("#listen" + nextId).href = contender.url;
   document.getElementById("vote"+nextId).addEventListener("click", function(){ 
-    //document.querySelector("#contender" + nextId).classList.add("winner");
     round2(contender, nextId);
   });
 }
@@ -92,7 +109,6 @@ function round2(contender, lastId){
       break;
   }
 
-  //alert("Voting for: " + contender.name + ". Last ID: " + lastId + ". Goes to: " + nextId);
   document.querySelector("#contender" + nextId).innerHTML = contender.name;
   document.querySelector("#listen" + nextId).href = contender.url;
   document.getElementById("vote"+nextId).addEventListener("click", function(){ 
@@ -125,7 +141,6 @@ function round3(contender, lastId){
       break;
   }
 
-  //alert("Voting for: " + contender.name + ". Last ID: " + lastId + ". Goes to: " + nextId);
   document.querySelector("#contender" + nextId).innerHTML = contender.name;
   document.querySelector("#listen" + nextId).href = contender.url;
   document.getElementById("vote"+nextId).addEventListener("click", function(){ 
@@ -153,10 +168,17 @@ function round4(contender, lastId){
       break;
   }
 
-  alert("Voting for: " + contender.name + ". Last ID: " + lastId + ". Goes to: " + nextId);
   document.querySelector("#contender" + nextId).innerHTML = contender.name;
   document.querySelector("#listen" + nextId).href = contender.url;
   document.getElementById("vote"+nextId).addEventListener("click", function(){ 
-    round3(contender, nextId);
+    showWinner(contender);
   });
+}
+
+function showWinner(contender)
+{
+  var winner = document.getElementById("winner");
+  winner.classList.add("winner");
+  winner.innerHTML = contender.name;
+
 }

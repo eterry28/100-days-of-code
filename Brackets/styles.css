@@ -31,7 +31,12 @@ body {
 
 .winner {
     border: 2px solid #0aa;
-    width: 100%;
+    position: relative;
+    width: 200px;
+    left: 152px;
+    top: 1001px;
+    text-align: center;
+    z-index: 10000;
 }
 
 .subnav {
@@ -74,7 +79,7 @@ body {
 
 .brackets select {
     border: 1px solid #444;
-    width: 100px;
+    width: 200px;
     padding: 6px;    
 }
 
