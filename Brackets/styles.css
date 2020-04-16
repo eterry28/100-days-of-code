@@ -196,11 +196,9 @@ body {
     margin: 380px auto;
 }
 
-
 .round-5 .match.match-0 {
     position: relative;
-    margin: 380px auto;
-    top:-500px;
+    margin: 0px auto;
+    top: -210px;
+    /* left: 222px; */
 }
-
-
