@@ -165,7 +165,7 @@ a {
     font-size: 1.1em;
 }
 
-.contender:hover { 
+.contender span:hover { 
     width:100%;
     background-color: #0aa;
 }
