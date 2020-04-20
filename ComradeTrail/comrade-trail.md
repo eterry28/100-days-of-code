@@ -8,3 +8,6 @@
 
 **Thoughts** I am the only one standing in the way of my dream of creating games.
 
+https://gamedevacademy.org/js13kgames-tutorial/
+https://github.com/verkaufer/TextAdventureGame
+http://rpgjs.com/
