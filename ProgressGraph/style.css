@@ -14,7 +14,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    overflow: hidden;
+    overflow-y: scroll;
     margin: 0;
 } 
 
@@ -23,8 +23,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     max-width: 1280px;
-    width: 98vw;
+    width: 1280px;
     height:fit-content;
+  }
+
+  .nav {
+      width: 100%;
+      padding: 10px;
   }
   
 
