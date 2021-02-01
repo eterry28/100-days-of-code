@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css">
     <title>Progress Steps</title>
 </head>
 <body>
     
     <div class="container">
+        <div class="nav">
+            <div id="nav-label">Dashboard</div>
+            <select name="dashboard" id="dashboard">
+                <option value="my">My</option>
+                <option value="exec">Executive</option>
+            </select>
+        </div>
         <div class="panel">
             <h3 class="title">Bookings MTD</h3>
             <h1 class="data">$700.42K</h1>
@@ -21,12 +34,12 @@
         </div>
         <div class="panel">
             <h3 class="title">Bookings YTD</h3>
-            <h1 class="data">$700K</h1>
+            <h1 class="data">$5.69M<i class="fa fa-arrow-down fa-fw" aria-hidden="true"></i></h1>
             <h5 class="description">Booked to date vs $10.18M goal</h5>
         </div>
         <div class="panel">
             <h3 class="title">This can be a title that line wraps at the end</h3>
-            <h1 class="data good">$700K</h1>
+            <h1 class="data good">$700K<i class="fa fa-arrow-up fa-fw" aria-hidden="true"></i></h1>
             <h5 class="description">This is another line that should line wrap at the end</h5>
         </div>
 
@@ -46,6 +59,42 @@
             <h3 class="title">Panel Title4</h3>
             <h1 class="data">$700K</h1>
             <h5 class="description">Discription of this panel</h5>
+        </div>
+
+        <div class="panel">
+            <h3 class="title">Bookings MTD</h3>
+            <h1 class="data">$700.42K</h1>
+            <h5 class="description">Booked to date vs $950.00K goal</h5>
+        </div>
+        <div class="panel">
+            <h3 class="title">Bookings QTD</h3>
+            <h1 class="data">$700K</h1>
+            <h5 class="description">Booked to date vs $2.85M goal</h5>
+        </div>
+        <div class="panel">
+            <h3 class="title">Bookings YTD</h3>
+            <h1 class="data">$700K</h1>
+            <h5 class="description">Booked to date vs $10.18M goal</h5>
+        </div>
+
+        <div class="panel">
+            <h3 class="title">This can be a title that line wraps at the end</h3>
+            <h1 class="data good">$700K</h1>
+            <h5 class="description">This is another line that should line wrap at the end</h5>
+        </div>
+
+        <div class="panel">
+            <h3 class="title">This can be a title that line wraps at the end</h3>
+            <h1 class="data good">$700K</h1>
+            <h5 class="description">This is another line that should line wrap at the end</h5>
+        </div>
+
+        <div class="nav">
+            <div id="nav-label">Dashboard</div>
+            <select name="dashboard" id="dashboard">
+                <option value="my">My</option>
+                <option value="exec">Executive</option>
+            </select>
         </div>
     </div>    
     <script src="script.js"></script>
