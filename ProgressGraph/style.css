@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@400;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+} 
+
+.container {
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    width: 98vw;
+    height:fit-content;
+  }
+  
+
+  .panel {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    border: 1px solid #888;
+    background-size: cover 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    padding: 15px;
+    margin: 10px 0 10px 10px;
+  }
+
+  .panel h3 {
+    padding: 0;
+    font-size: .75rem;
+    text-transform: uppercase;
+    top: 5px;
+    left: 25px;
+    margin: 0;
+  }
+
+  .panel h1 {
+      padding: 0;
+      margin: 0;
+    position: absolute;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #B55429;
+    top: 4rem;
+  }
+
+  .panel .data.good {
+      color: #0C4128;
+  }
+
+  .panel h5 {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    font-size: .8rem;
+    font-weight: lighter;
+    top: 9.5rem;
+    left: 15px;    
+  }
+
+  /*
+  .gauge-a {
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(255,255,255,.2);
+    width: 400px;
+    height: 200px;
+    top: 0%;
+    border-radius: 250px 250px 0px 0px;
+    border: 2px solid #000;
+  }
+  
+  .gauge-b {
+    z-index: 3;
+    position: absolute;
+    background-color: #222;
+    width: 250px;
+    height: 125px;
+    top: 75px;
+    margin-left: 75px;
+    margin-right: auto;
+    border-radius: 250px 250px 0px 0px;
+  }
+  
+  .gauge-c {
+    z-index: 2;
+    position: absolute;
+    background-color: #5664F9;
+    width: 400px;
+    height: 200px;
+    top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 200px 200px;
+    transform-origin: center top;
+    transition: all 1.3s ease-in-out;
+  }
+  
+  .container:hover .gauge-c {  transform:rotate(180deg);
+  }
+  
+  .container:hover .gauge-data { color: rgba(255,255,255,1); }
+  
+  .gauge-data {
+    z-index: 4;
+    color: rgba(255,255,255,.2);
+    font-size: 1.5em;
+    line-height: 25px;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 1s ease-out;
+  }
+
+  */
