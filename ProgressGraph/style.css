@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@400;900&display=swap');
 
+:root {
+    --good-panel-fill: #8CA993;
+    --bad-panel-fill: #EB6B5E;
+    --risk-panel-fill: #F2E4B8;
+    --info-panel-fill: #D1ECF1;
+}
 
 * {
     box-sizing: border-box;
 }
+
 
 body {
     background-color: #ccc;
@@ -17,6 +24,7 @@ body {
     overflow-y: scroll;
     margin: 0;
 } 
+
 
 .container {
     background-color: #fafafa;
@@ -64,7 +72,7 @@ body {
     font-size: 3rem;
     font-weight: 900;
     text-transform: uppercase;
-    color: #B55429;
+    color: var(--bad-panel-fill);
     top: 4rem;
   }
 
@@ -81,6 +89,163 @@ body {
     top: 9.5rem;
     left: 15px;    
   }
+
+  .panel.overview {
+    height: 80px;
+    width: 250px;
+    border-radius: 5px;
+    }
+
+    .panel.overview.good {
+        color: #fff;
+        background-color: var(--good-panel-fill);
+        border-color: var(--good-panel-fill);
+    }
+
+    .panel.overview.bad {
+        color: #fff;
+        background-color: var(--bad-panel-fill);
+        border-color: var(--bad-panel-fill);
+    }
+
+    .panel.overview.risk {
+        color: #555;
+        background-color: var(--risk-panel-fill);
+        border-color: var(--risk-panel-fill);
+    }
+
+    .panel.overview.info {
+        color: #555;
+        background-color: var(--info-panel-fill);
+        border-color: var(--info-panel-fill);
+    }
+
+    .panel.overview.info h1,
+    .panel.overview.risk h1{
+        color: #555;        
+    }
+
+    .panel.overview h1 {
+      position: absolute;
+      text-align: right;
+      font-size: 2rem;
+      color: #fff;
+      top: 30px;
+      left: 150px;
+    }
+
+    .panel.overview h3 {
+        position: absolute;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: normal;
+        top: 20px;
+        left: 15px;
+      }
+
+    .panel.overview h5 {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        font-size: .8rem;
+        font-weight: lighter;
+        top: 50px;
+        left: 15px;    
+      }
+
+  #title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 10px;
+  }
+
+  .client-panel {
+    position: relative;
+    width: 100%;
+    border: 1px solid #888;
+    background-size: cover 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    padding: 0px;
+    margin: 10px;
+  }
+
+  .client-panel table {
+      width: 100%;
+  }
+
+  .client-panel tr:hover {
+    background-color: lightgrey;
+}
+
+  .client-panel table, 
+  .client-panel table td,
+  .client-panel table th {
+      border: 0;
+      border-collapse: collapse;
+  }
+
+
+  .client-panel table td,
+  .client-panel table th {
+    text-align: left;  
+    border-left: 1px solid #ccc;
+    padding: 5px;
+  }
+
+  .client-panel table th {
+      font-size: .8rem;
+      font-weight: normal;
+  }
+
+  .client-table-header {
+      background-color: #E0E0E0;
+  }
+
+  .client-panel a {
+      cursor: pointer;   
+      text-decoration: none;
+      color: #222;
+  }
+
+  .client-panel a:hover {
+    cursor: pointer;   
+    text-decoration: none;
+    color: #999;
+}
+
+  .client-panel
+
+  .status {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .client-status {
+    position: relative;
+    text-align: center;
+    padding: 2px;
+    border-radius: 10px;
+    width: 100px;
+  }
+
+  .info {
+      background-color: var(--info-panel-fill);
+  }
+
+  .good {
+    background-color: var(--good-panel-fill);
+}
+
+.risk {
+    background-color: var(--risk-panel-fill);
+}
+
+.bad {
+    background-color: var(--bad-panel-fill);
+}
 
   /*
   .gauge-a {
