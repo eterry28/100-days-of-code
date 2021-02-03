@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Progress Steps</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div id="title">Customer Progress Overview</div>
+        <div class="nav">
+            <div id="nav-label">Dashboard</div>
+            <select name="dashboard" id="dashboard">
+                <option value="my">My</option>
+                <option value="exec">Executive</option>
+            </select>
+        </div>
+
+        <div class="panel overview good">
+            <h3 class="title">Ahead</h3>
+            <h1 class="data">2%</h1>
+            <h5 class="description">1 Client</h5>
+        </div>
+
+        <div class="panel overview info">
+            <h3 class="title">On Track</h3>
+            <h1 class="data">8%</h1>
+            <h5 class="description">1 Client</h5>
+        </div>
+
+        <div class="panel overview risk">
+            <h3 class="title">At Risk</h3>
+            <h1 class="data">60%</h1>
+            <h5 class="description">5 Clients</h5>
+        </div>
+
+        <div class="panel overview bad">
+            <h3 class="title">Behind</h3>
+            <h1 class="data">30%</h1>
+            <h5 class="description">3 Clients</h5>
+        </div>
+
+        <div class="client-panel">
+            <table id="clients" class="client-table">
+                <thead class="client-table-header">
+                    <tr>
+                    <th>Client Name</th>
+                    <th>Service</th>
+                    <th>Client Status</th>
+                    <th>Assigned To</th>
+                    <th>% Completed</th>
+                    <th>Progress Status</th>
+                    <th>Details</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="client-table-row">
+                    <td><a href="client-detail" id="kj1">Kylie Jenner</a></td>
+                    <td>Bespoke</td>
+                    <td>Repeat</td>
+                    <td>Priya S.</td>
+                    <td>10%</td>
+                    <td>
+                        <div class="status">
+                            <span class="info client-status">On Track</span>
+                        </div>                        
+                    </td>
+                    <td>Date details</td>
+                </tr>
+                <tr class="client-table-row">
+                    <td>Corey Kispert</td>
+                    <td>Relocation</td>
+                    <td>New</td>
+                    <td>Priya S.</td>
+                    <td>10%</td>
+                    <td>
+                        <div class="status">
+                            <span class="bad client-status">Behind</span>
+                        </div>                        
+                    </td>
+                    <td>Date details</td>
+                </tr>
+                <tr class="client-table-row">
+                    <td>LeBron James</td>
+                    <td>Explore Ghana</td>
+                    <td>New</td>
+                    <td>Priya S.</td>
+                    <td>10%</td>
+                    <td>
+                        <div class="status">
+                            <span class="bad client-status">Behind</span>
+                        </div>                        
+                    </td>
+                    <td>Date details</td>
+                </tr>
+                <tr class="client-table-row">
+                    <td>Meek Mill</td>
+                    <td>Relocation</td>
+                    <td>Repeat</td>
+                    <td>Priya S.</td>
+                    <td>10%</td>
+                    <td>
+                        <div class="status">
+                            <span class="info client-status">On Track</span>
+                        </div>                        
+                    </td>
+                    <td>Date details</td>
+                </tr>
+                <tr class="client-table-row">
+                    <td>Kevin Durant</td>
+                    <td>Bespoke</td>
+                    <td>Repeat</td>
+                    <td>Priya S.</td>
+                    <td>10%</td>
+                    <td>
+                        <div class="status">
+                            <span class="risk client-status">At Risk</span>
+                        </div>                        
+                    </td>
+                    <td>Date details</td>
+                </tr>
+                <tr class="client-table-row">
+                    <td>Patrick Mahomes</td>
+                    <td>Explore Ghana</td>
+                    <td>New</td>
+                    <td>Priya S.</td>
+                    <td>10%</td>
+                    <td>
+                        <div class="status">
+                            <span class="info client-status">On Track</span>
+                        </div>                        
+                    </td>
+                    <td>Date details</td>
+                </tr>
+                <tr class="client-table-row">
+                    <td>Russell Wilson</td>
+                    <td>Bespoke</td>
+                    <td>Repeat</td>
+                    <td>Priya S.</td>
+                    <td>10%</td>
+                    <td>
+                        <div class="status">
+                            <span class="good client-status">Ahead</span>
+                        </div>                        
+                    </td>
+                    <td>Date details</td>
+                </tr>
+                <tr class="client-table-row">
+                    <td>LeBron James</td>
+                    <td>Explore Ghana</td>
+                    <td>New</td>
+                    <td>Priya S.</td>
+                    <td>10%</td>
+                    <td>
+                        <div class="status">
+                            <span class="bad client-status">Behind</span>
+                        </div>                        
+                    </td>
+                    <td>Date details</td>
+                </tr>
+                <tr class="client-table-row">
+                    <td>Meek Mill</td>
+                    <td>Relocation</td>
+                    <td>Repeat</td>
+                    <td>Priya S.</td>
+                    <td>10%</td>
+                    <td>
+                        <div class="status">
+                            <span class="info client-status">On Track</span>
+                        </div>                        
+                    </td>
+                    <td>Date details</td>
+                </tr>
+                <tr class="client-table-row">
+                    <td>Kevin Durant</td>
+                    <td>Bespoke</td>
+                    <td>Repeat</td>
+                    <td>Priya S.</td>
+                    <td>10%</td>
+                    <td>
+                        <div class="status">
+                            <span class="risk client-status">At Risk</span>
+                        </div>                        
+                    </td>
+                    <td>Date details</td>
+                </tr>
+                <tr class="client-table-row">
+                    <td>Patrick Mahomes</td>
+                    <td>Explore Ghana</td>
+                    <td>New</td>
+                    <td>Priya S.</td>
+                    <td>10%</td>
+                    <td>
+                        <div class="status">
+                            <span class="info client-status">On Track</span>
+                        </div>                        
+                    </td>
+                    <td>Date details</td>
+                </tr>
+                <tr class="client-table-row">
+                    <td>Russell Wilson</td>
+                    <td>Bespoke</td>
+                    <td>Repeat</td>
+                    <td>Priya S.</td>
+                    <td>10%</td>
+                    <td>
+                        <div class="status">
+                            <span class="good client-status">Ahead</span>
+                        </div>                        
+                    </td>
+                    <td>Date details</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+
+
+        <div class="nav">
+            <div id="nav-label">Dashboard</div>
+            <select name="dashboard" id="dashboard">
+                <option value="my">My</option>
+                <option value="exec">Executive</option>
+            </select>
+        </div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html> 
