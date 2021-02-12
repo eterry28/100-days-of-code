@@ -10,6 +10,9 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.23/datatables.min.css"/>
+ 
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.23/datatables.min.js"></script>
     <title>Progress Steps</title>
 </head>
 <body>
@@ -50,7 +53,9 @@
 
         <div class="client-panel">
             <table id="clients" class="client-table">
+                
                 <thead class="client-table-header">
+                    <tr><td style="background-color:#fff; border: none"></td></tr>
                     <tr>
                     <th>Client Name</th>
                     <th>Service</th>

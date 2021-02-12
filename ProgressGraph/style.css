@@ -247,6 +247,65 @@ body {
     background-color: var(--bad-panel-fill);
 }
 
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 25px;
+}
+
+.demographics {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 25px;
+}
+
+.profile-left {
+
+}
+
+.profile-right {
+  padding: 0 25px;
+}
+
+.profile-name {
+  padding: 0 25px;
+  width: 100%;
+}
+
+.profile-photo {
+  border-radius: 5px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+}
+
+.action {
+  text-align: center;
+  justify-content: center;
+  flex: .1;
+  border: solid 2px #000;
+  background-size: cover 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*
+.profile-contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-contact-info p {
+  padding: 5px;
+  margin: 5px;
+}
+
+*/
   /*
   .gauge-a {
     z-index: 1;
