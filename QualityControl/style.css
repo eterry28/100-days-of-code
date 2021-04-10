@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+div.hero {
+    text-align: center;
+    font-size: 1.5rem;
+    left: 25%;
+    top: 0px;
+}
+
+div.container {
+    display: flex;
+    flex-direction: row;
+}
+
+div.left{
+    width: 40vw;
+    border: solid 1px #000;
+    margin: 10px;
+    padding:10px;
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+ div.left::-webkit-scrollbar { width: 0 !important } 
+
+div.right{
+    width: 60vw;
+    border: solid 1px #000;
+    margin: 10px;
+    padding:10px;
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+#itemList {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #itemList td, #itemList th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #itemList tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #itemList tr:hover {background-color: #ddd;}
+  
+  #itemList th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0a50af;
+    color: white;
+  }
+
+.element {
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.element label {
+    display: block;
+    margin: 0 0 15px 0;
+}
+
+.element label > span{
+    width: 150px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+
+.element input{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	-moz-box-shadow: 1px 1px 4px #EBEBEB;
+	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 7px;
+	outline: none;
+}
+
+.element input[type="color"]{
+    padding: 2px;
+}
+
+.element input[type="checkbox"],
+.element input[type="radio"] {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #6cc0e5;
+    opacity: .6;
+  }
+
+.element input[type=submit],
+.element input[type=button],
+.element input[type=reset]{
+	border: none;
+	padding: 8px 15px 8px 15px;
+	background: #9e0123;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA;
+	-moz-box-shadow: 1px 1px 4px #DADADA;
+	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.clickable {
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: right;
+}
+
+.clickable:hover{
+    color:#0a50af;
+}
+
+.x64{
+    height: 64px;
+}
