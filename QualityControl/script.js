@@ -118,10 +118,43 @@ function fieldAcceptedChars(label = "[TEXT]"){
     addElement(`${label} Input Accepted Characters`, " ", " ");
     addElement(" ", "Open [BROWSER] and launch [URL]", "The page is displayed.");
     addElement(" ", "Enter the text into the input field: [CHARACTERS]", "Only [CHARACTERS] are able to be entered.");
+    
 }
 
-function fieldAcceptedChars(label = "[TEXT]"){
-    addElement(`${label} Input Accepted Characters`, " ", " ");
-    addElement(" ", "Open [BROWSER] and launch [URL]", "The page is displayed.");
-    addElement(" ", "Enter the text into the input field: [CHARACTERS]", "Only [CHARACTERS] are able to be entered.");
+var testPlan = document.getElementById("testPlan");
+var addTestPlanText = document.getElementById("iplan");
+addTestPlanText.addEventListener("click", () => {
+    addTestPlan();
+})
+
+function addTestPlan(){
+
+    testPlan.innerHTML = "<h2>Test Plan</h2>";
+
+    testPlan.innerHTML += `<h3>Scope</h3>
+    <p>[Testing will be conducted using scenarios for known business requirements. Any new requirements that are uncovered during testing must be put into a backlog and prioritized. Implementation of new requirements requires following the established OneIntouch Process Framework change request process.]</p>`;
+
+    testPlan.innerHTML += `<h3>Features Being Tested</h3>
+    <p>[The following features have been identified as useful to test end user experiences:]</p>`;
+
+    testPlan.innerHTML += `<h3>Features Not Being Tested</h3>
+    <p>[Testing will not cover:]</p>`;
+
+    testPlan.innerHTML += `<h3>Test Environment Details</h3>
+    <p>[Testing will be conducted on [URL] ]</p>`;
+
+    testPlan.innerHTML += `<h3>Entry Criteria</h3>
+    <p>[All code for this release must be deployed to the [ENVIRONMENT]<br/>
+        Code is a vetted release candidate that matches FRD and Submission documentation ]</p>`;
+
+    testPlan.innerHTML += `<h3>Suspension Criteria</h3>
+    <p>[The test build will be rejected for one of the following reasons:<br/>
+    Smoke test fails<br/>
+    20% of functional tests fail]</p>`;
+
+    testPlan.innerHTML += `<h3>Exit Criteria</h3>
+    <p>[All failed tests must be triaged, and either fixed or deferred.]</p>`;
+
+    testPlan.innerHTML += `<h3>References</h3>
+    <p>[LINKS TO BRD, FRD, DESIGN DOC, ETC.]<br/></p>`;
 }

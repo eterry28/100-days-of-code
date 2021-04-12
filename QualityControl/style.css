@@ -66,27 +66,43 @@ div.right{
     color: white;
   }
 
-.element {
+.badges {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.badge {
     background-color: lightblue;
     margin: 10px;
     padding: 10px;
     border: 1px solid black;
+    width: 190px;
+    align-items: center;
 }
 
-.element label {
+
+.badge label {
     display: block;
     margin: 0 0 15px 0;
 }
 
-.element label > span{
-    width: 150px;
+.badge label > span{
+    width: 190px;
 	font-weight: bold;
-	float: left;
 	padding-top: 8px;
-	padding-right: 5px;
+    padding-right: 5px;
+    
 }
 
-.element input{
+.badge label > img{
+    display: block;
+	margin: 10px auto;
+    
+}
+
+
+.badge input{
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -98,25 +114,26 @@ div.right{
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	padding: 7px;
-	outline: none;
+    outline: none;
+    width: 90%;
 }
 
-.element input[type="color"]{
+.badge input[type="color"]{
     padding: 2px;
+    width: 50px;
 }
 
-.element input[type="checkbox"],
-.element input[type="radio"] {
+.badge input[type="checkbox"],
+.badge input[type="radio"] {
     display: inline;
-    width: 20px;
-    height: 20px;
     border: 1px solid #6cc0e5;
     opacity: .6;
+    width: 50px;
   }
 
-.element input[type=submit],
-.element input[type=button],
-.element input[type=reset]{
+.badge input[type=submit],
+.badge input[type=button],
+.badge input[type=reset]{
 	border: none;
 	padding: 8px 15px 8px 15px;
 	background: #9e0123;
@@ -130,9 +147,9 @@ div.right{
 }
 
 .clickable {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     cursor: pointer;
-    text-align: right;
+    margin: 10px auto;
 }
 
 .clickable:hover{
@@ -141,4 +158,5 @@ div.right{
 
 .x64{
     height: 64px;
+    padding: 5px;
 }
