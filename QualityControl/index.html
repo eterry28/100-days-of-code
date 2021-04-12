@@ -1,179 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>QC Test Cases</title>
-  </head>
 
-  <body>
-    <div class="hero">
-      <h1>Quality Control Test Cases</h1>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>QC Test Cases</title>
+</head>
 
-    <div class="container">
-      <div class="left">
-        <h2>Test Types</h2>
-        <div class="element">
-          <label for="ismoke"><span>Smoke Test:</span><img class="x64" src="https://static.thenounproject.com/png/3078211-200.png" alt="" srcset=""></label>
+<body>
+  <div class="hero">
+    <h1>Quality Control Test Cases</h1>
+  </div>
+
+  <div class="container">
+    <div class="left">
+
+      <h2>Test Plan</h2>
+      <div class="badges">
+        <div class="badge">
+          <label for="iplan"><span>Test Plan:</span><img class="x64"
+              src="https://static.thenounproject.com/png/3078211-200.png" alt="" srcset=""></label>
+          <p class="clickable" id="iplan">Add Test Plan Narrative.</p>
+        </div>
+      </div>
+
+      <h2>Test Types</h2>
+      <div class="badges">
+        <div class="badge">
+          <label for="iexplore"><span>Exploratory Test:</span><img class="x64"
+              src="https://static.thenounproject.com/png/3078211-200.png" alt="" srcset=""></label>
+          <p class="clickable" id="iexplore">Add Exploratory Test steps.</p>
+        </div>
+
+
+        <div class="badge">
+          <label for="ismoke"><span>Smoke Test:</span><img class="x64"
+              src="https://static.thenounproject.com/png/3078211-200.png" alt="" srcset=""></label>
           <p class="clickable" id="ismoke">Add Smoke Test steps.</p>
         </div>
 
-        <div class="element">
-          <label for="isetup"><span>Test Setup:</span><img class="x64" src="https://static.thenounproject.com/png/1453259-200.png" alt="" srcset=""></label>
+        <div class="badge">
+          <label for="isystem"><span>System Test:</span><img class="x64"
+              src="https://static.thenounproject.com/png/3078211-200.png" alt="" srcset=""></label>
+          <p class="clickable" id="isystem">Add System Test steps.</p>
+        </div>
+      </div>
+
+      <h2>Sections</h2>
+      <div class="badges">
+        <div class="badge">
+          <label for="isetup"><span>Test Setup:</span><img class="x64"
+              src="https://static.thenounproject.com/png/1453259-200.png" alt="" srcset=""></label>
           <p class="clickable" id="isetup">Add Setup steps.</p>
         </div>
+      </div>
 
-        <h2>Web Elements</h2>
-        <div class="element">
+      <h2>Components</h2>
+      <div class="badges">
+
+        <div class="badge">
+          <label for="iheader"><span>Header:</span><img class="x64"
+              src="https://static.thenounproject.com/png/3078211-200.png" alt="" srcset=""></label>
+          <p class="clickable" id="iheader">Add Header tests.</p>
+        </div>
+
+        <div class="badge">
+          <label for="ifooter"><span>Footer:</span><img class="x64"
+              src="https://static.thenounproject.com/png/3078211-200.png" alt="" srcset=""></label>
+          <p class="clickable" id="ifooter">Add Footer tests.</p>
+        </div>
+
+        <div class="badge">
+          <label for="iwol"><span>Warn On Leave:</span><img class="x64"
+              src="https://static.thenounproject.com/png/1453259-200.png" alt="" srcset=""></label>
+          <p class="clickable" id="iwol">Add Warn On Leave tests.</p>
+        </div>
+
+        <div class="badge">
+          <label for="isi"><span>ISI Control:</span><img class="x64"
+              src="https://static.thenounproject.com/png/1453259-200.png" alt="" srcset=""></label>
+          <p class="clickable" id="isi">Add ISI Control tests.</p>
+        </div>
+
+        <div class="badge">
+          <label for="ilogin"><span>Login:</span><img class="x64"
+              src="https://static.thenounproject.com/png/1453259-200.png" alt="" srcset=""></label>
+          <p class="clickable" id="ilogin">Add Login tests.</p>
+        </div>
+
+        <div class="badge">
+          <label for="icaptcha"><span>Hidden Captcha</span><img class="x64"
+              src="https://static.thenounproject.com/png/1453259-200.png" alt="" srcset=""></label>
+          <p class="clickable" id="icaptcha">Add Hidden Captcha tests.</p>
+        </div>
+      </div>
+
+      <h2>Web Elements</h2>
+      <div class="badges">
+        <div class="badge">
           <label for="itext"><span>Link Label:</span><input type="text" id="iLinkLabel" name="iLinkLabel" /></label>
           <label><span></span><a href="#">Anchor Link</a></label>
-          <p class="clickable" id="link">Add Anchor link test cases.</p>
+          <p class="clickable" id="link">Add Anchor link tests.</p>
         </div>
-        <div class="element">
+        <div class="badge">
           <label for="itext">
             <span>Text Input Label:</span>
             <input type="text" id="itextlabel" name="itextlabel" />
           </label>
-          <p class="clickable" id="text">Add Text input test cases.</p>
+          <p class="clickable" id="text">Add Text input tests.</p>
         </div>
 
-        <div class="element">
-          <label for="iPassword"
-            ><span>Password:</span
-            ><input type="password" id="iPassword" name="iPassword"
-          /></label>
-          <p class="clickable" id="password">Add Password test cases.</p>
+        <div class="badge">
+          <label for="iPassword"><span>Password:</span><input type="password" id="iPassword" name="iPassword" /></label>
+          <p class="clickable" id="password">Add Password tests.</p>
         </div>
 
-        <div class="element">
-          <label for="itext"><span>Submit Label:</span><input type="text" id="iSubmitLabel" name="iSubmitLabel" /></label>
-          <label for="isubmit"><span>Submit:</span><input type="submit" id="isubmit" name="isubmit"/></label>
+        <div class="badge">
+          <label for="itext"><span>Submit Label:</span><input type="text" id="iSubmitLabel"
+              name="iSubmitLabel" /></label>
+          <label for="isubmit"><span>Submit:</span><input type="submit" id="isubmit" name="isubmit" /></label>
           <p class="clickable" id="submit">Add Submit Button test cases.</p>
         </div>
 
-        <div class="element">
-          <label for="ireset"
-            ><span>Reset:</span><input type="reset" id="iReset" name="iReset"
-          /></label>
+        <div class="badge">
+          <label for="ireset"><span>Reset:</span><input type="reset" id="iReset" name="iReset" /></label>
           <p class="clickable" id="reset">Add Reset Button test cases.</p>
         </div>
 
-        <div class="element">
+        <div class="badge">
           <label for="ithis">
-            <span>Radio:</span
-            ><input type="radio" id="ithis" name="gender" value="this" />This
-            <input type="radio" id="ithat" name="gender" value="that" />That
-            <input type="radio" id="iother" name="gender" value="other" />Other
+            <span>Radio:</span><input type="radio" id="ithis" name="gender" value="this" />This
+            
           </label>
           <p class="clickable" id="radio">Add Radio Button test cases.</p>
         </div>
 
-        <div class="element">
+        <div class="badge">
           <label for="ithis">
             <span>Checkbox:</span>
-            <input type="checkbox" id="ithisc" name="gender" value="this" />This
             <input type="checkbox" id="ithatc" name="gender" value="that" />That
-            <input
-              type="checkbox"
-              id="iotherc"
-              name="gender"
-              value="other"
-            />Other
           </label>
           <p class="clickable" id="checkbox">Add Checkbox test cases.</p>
         </div>
 
-        <div class="element">
+        <div class="badge">
           <label for="ibutton">
             <span>Button:</span>
-            <input
-              type="button"
-              id="ibutton"
-              name="gender"
-              value="Don't Click Here"
-            />
+            <input type="button" id="ibutton" name="gender" value="Don't Click Here" />
           </label>
           <p class="clickable" id="button">Add Button test cases.</p>
         </div>
 
-        <div class="element">
-          <label for="icolor"
-            ><span>Select a color:</span>
-            <input type="color" id="icolor" name="icolor"
-          /></label>
+        <div class="badge">
+          <label for="icolor"><span>Select a color:</span>
+            <input type="color" id="icolor" name="icolor" /></label>
           <p class="clickable" id="color">Add Color Picker test cases.</p>
         </div>
 
-        <div class="element">
-          <label for="idate"
-            ><span>Enter a date:</span>
-            <input type="date" id="idate" name="idate"
-          /></label>
+        <div class="badge">
+          <label for="idate"><span>Enter a date:</span>
+            <input type="date" id="idate" name="idate" /></label>
           <p class="clickable" id="date">Add Date Picker test cases.</p>
         </div>
 
-        <div class="element">
+        <div class="badge">
           <label for="iemail"><span>Email Address:</span>
-          <input type="email" id="iemail" name="iemail" />
+            <input type="email" id="iemail" name="iemail" />
           </label>
           <p class="clickable" id="email">Add Email input test cases.</p>
         </div>
 
-        <div class="element">
+        <div class="badge">
           <label for="ifile"><span>Select a file:</span>
-          <input type="file" id="ifile" name="ifile" />
+            <input type="file" id="ifile" name="ifile" />
           </label>
           <p class="clickable" id="file">Add File select test cases.</p>
         </div>
 
-        <div class="element">
+        <div class="badge">
           <label for="visible"><span>Hidden field:</span>
-          <input type="text" id="ivisible" name="ivisible" value="Hidden field below." />
-          <input type="hidden" id="ihidden" name="ihidden" value="Hello, QC" />
-        </label>
+            <input type="text" id="ivisible" name="ivisible" value="Hidden field below." />
+            <input type="hidden" id="ihidden" name="ihidden" value="Hello, QC" />
+          </label>
           <p class="clickable" id="hidden">Add Hidden field test cases.</p>
         </div>
 
-        <div class="element">
+        <div class="badge">
           <label for="imonth"><span>Day (month &amp; year):</span>
-          <input type="month" id="imonth" name="imonth" />
-        </label>
+            <input type="month" id="imonth" name="imonth" />
+          </label>
           <p class="clickable" id="month">Add Month picker test cases.</p>
         </div>
 
-        <div class="element">
+        <div class="badge">
           <label for="inumber"><span>Number (1 - 10):</span>
-          <input type="number" id="inumber" name="inumber" min="1" max="10" />
-        </label>
+            <input type="number" id="inumber" name="inumber" min="1" max="10" />
+          </label>
           <p class="clickable" id="number">Add Number picker test cases.</p>
         </div>
 
-        <div class="element">
+        <div class="badge">
           <label for="itime"><span>Select a time:</span>
-          <input type="time" id="itime" name="itime" />
-        </label>
+            <input type="time" id="itime" name="itime" />
+          </label>
           <p class="clickable" id="time">Add Time input test cases.</p>
         </div>
 
-        <div class="element">
+        <div class="badge">
           <label for="itime"><span>Select a week:</span>
-          <input type="week" id="iweek" name="iweek" />
-        </label>
+            <input type="week" id="iweek" name="iweek" />
+          </label>
           <p class="clickable" id="week">Add Week input test cases.</p>
         </div>
       </div>
-
-      <div class="right">
-        <h2>Test Cases</h2>
-        <table id="itemList">
-          <th>Title</th>
-          <th>Step Action</th>
-          <th>Expected Result</th>
-        </table>
-      </div>
     </div>
-    <script src="script.js"></script>
-  </body>
+
+    <div class="right">
+      <div id="testPlan"></div>
+
+      <h2>Test Cases</h2>
+      <table id="itemList">
+        <th>Title</th>
+        <th>Step Action</th>
+        <th>Expected Result</th>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
