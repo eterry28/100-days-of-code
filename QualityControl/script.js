@@ -41,10 +41,7 @@ var addSubmitTests = document.getElementById('submit');
 var subtitle = document.getElementById("iSubmitLabel");
 addSubmitTests.addEventListener('click', () => {
     subtitle.value = (subtitle.value.length > 0) ? subtitle.value : "Submit";
-    fieldInput(subtitle.value);
-    fieldRequired(subtitle.value);
-    fieldMaxlength(subtitle.value);
-    fieldAcceptedChars(subtitle.value);    
+    formSubmit(subtitle.value);  
     subtitle.value = "";
 })
 
@@ -121,5 +118,10 @@ function fieldAcceptedChars(label = "[TEXT]"){
     addElement(`${label} Input Accepted Characters`, " ", " ");
     addElement(" ", "Open [BROWSER] and launch [URL]", "The page is displayed.");
     addElement(" ", "Enter the text into the input field: [CHARACTERS]", "Only [CHARACTERS] are able to be entered.");
-    
+}
+
+function fieldAcceptedChars(label = "[TEXT]"){
+    addElement(`${label} Input Accepted Characters`, " ", " ");
+    addElement(" ", "Open [BROWSER] and launch [URL]", "The page is displayed.");
+    addElement(" ", "Enter the text into the input field: [CHARACTERS]", "Only [CHARACTERS] are able to be entered.");
 }
