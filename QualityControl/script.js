@@ -1,3 +1,14 @@
+var banner = document.querySelector(".badge");
+banner.addEventListener('dragstart', (e) => {
+    e.dataTransfer.setData('text/plain', e.target.id);
+    console.log('drag starts...');
+});
+
+var drop = document.getElementById("drop");
+drop.addEventListener('drop', () => {
+    alert("You dropped " + + " on the target. Good Job!!!");
+})
+
 var addSmokeTestSteps = document.getElementById('ismoke');
 addSmokeTestSteps.addEventListener('click', () => {
     smokeTest();
@@ -122,7 +133,7 @@ function fieldAcceptedChars(label = "[TEXT]"){
 }
 
 var testPlan = document.getElementById("testPlan");
-var addTestPlanText = document.getElementById("iplan");
+var addTestPlanText = document.getElementById("ibannerplan");
 addTestPlanText.addEventListener("click", () => {
     addTestPlan();
 })
