@@ -115,7 +115,7 @@ div.right{
 	-moz-border-radius: 3px;
 	padding: 7px;
     outline: none;
-    width: 90%;
+    width: 80%;
 }
 
 .badge input[type="color"]{
@@ -125,10 +125,9 @@ div.right{
 
 .badge input[type="checkbox"],
 .badge input[type="radio"] {
-    display: inline;
     border: 1px solid #6cc0e5;
     opacity: .6;
-    width: 50px;
+    width: 40px;
   }
 
 .badge input[type=submit],

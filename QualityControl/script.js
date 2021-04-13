@@ -56,8 +56,26 @@ addSubmitTests.addEventListener('click', () => {
     subtitle.value = "";
 })
 
+var addWarnOnLeave = document.getElementById("iwol");
+addWarnOnLeave.addEventListener('click', () => {
+    warnOnLeave();
+})
 
-function addElement(t, s, r){
+var addWarnOnEnter = document.getElementById("iwoe");
+addWarnOnEnter.addEventListener('click', () => {
+    warnOnEnter();
+})
+
+/*
+var newSubTitle = "";
+subtitle.addEventListener('keydown', (e) => {
+    newSubTitle += e.key;
+    document.getElementById("isubmit").innerHTML
+    alert("key pressed: " + e.key)
+})
+*/
+
+function addRow(t, s, r){
     var itemTable = document.getElementById("itemList");
 
     var tr = itemTable.insertRow(itemTable.rows.length);
@@ -78,67 +96,118 @@ function remove(id){
 }
 
 function setupSteps(label = "WEB"){
-    addElement(`${label} Start of Setup`, " ", " ");
-    addElement("Page Under Test:", "[URL BEING TESTED]", "");
-    addElement("Credentials", "User: [USERNAME] / Pass: [PASSWORD].", "");
-    addElement(`${label} End of Setup`, " ", " ");
+    addRow(`${label} Start of Setup`, " ", " ");
+    addRow("Page Under Test:", "[URL BEING TESTED]", "");
+    addRow("Credentials", "User: [USERNAME] / Pass: [PASSWORD].", "");
+    addRow(`${label} End of Setup`, " ", " ");
 }
 
 function smokeTest(label = "SMOKE"){
-    addElement(`${label} Test`, " ", " ");
-    addElement(" ", "Run Web Link Validator on [URL]", "No broken links found.");
-    addElement(" ", "Search for [SEARCH TERM] using the sites search function.", "The search results for [SEARCH TERM] are displayed.");
-    addElement(" ", "Check rendering for [URL] using the iphone, android and desktop browsers.", "No rendering defects are present.");
+    addRow(`${label} Test`, " ", " ");
+    addRow(" ", "Run Web Link Validator on [URL]", "No broken links found.");
+    addRow(" ", "Search for [SEARCH TERM] using the sites search function.", "The search results for [SEARCH TERM] are displayed.");
+    addRow(" ", "Check rendering for [URL] using the iphone, android and desktop browsers.", "No rendering defects are present.");
 }
 
 function anchorLink(label = "[LINK]"){
-    addElement(`"${label}" Link`, " ", " ");
-    addElement(" ", "Open [BROWSER] and launch [URL]", "The page is displayed.");
-    addElement(" ", `Select the "${label}" link`, "Links to the [URL].");
-    addElement(" ", `Select the "${label}" link`, "Link opens in new window/tab.");
+    addRow(`"${label}" Link`, " ", " ");
+    addRow(" ", "Open [URL] in [BROWSER]", "The page is displayed.");
+    addRow(" ", `Select the "${label}" link`, "Links to the [URL].");
+    addRow(" ", `Select the "${label}" link`, "Link opens in new window/tab.");
 }
 
 function fieldInput(label = "[TEXT]"){
-    addElement(`"${label}" Input`, " ", " ");
-    addElement(" ", "Open [BROWSER] and launch [URL]", "The page is displayed.");
-    addElement(" ", "Page loads", `"${label}" input is displayed on the page.`);
+    addRow(`"${label}" Input`, " ", " ");
+    addRow(" ", "Open [URL] in [BROWSER]", "The page is displayed.");
+    addRow(" ", "Page loads", `"${label}" input is displayed on the page.`);
 }
 
 function fieldRequired(label = "[TEXT]"){
-    addElement(`"${label}" Input Required`, " ", " ");
-    addElement(" ", "Open [BROWSER] and launch [URL]", "The page is displayed.");
-    addElement(" ", "Submit the form without any data", "The form is not submitted.");
-    addElement(" ", "Submit the form without any data", `Error message for "${label}" is displayed.`);  
+    addRow(`"${label}" Input Required`, " ", " ");
+    addRow(" ", "Open [URL] in [BROWSER]", "The page is displayed.");
+    addRow(" ", "Submit the form without any data", "The form is not submitted.");
+    addRow(" ", "Submit the form without any data", `Error message for "${label}" is displayed.`);  
 }
 
 function fieldMaxlength(label = "[TEXT]"){
-    addElement(`"${label}" Input Boundary`, " ", " ");
-    addElement(" ", "Open [BROWSER] and launch [URL]", "The page is displayed.");
-    addElement(" ", `Enter the text into the input field: [MIN BOUNDARY] - 1`, `Only [MIN BOUNDARY] is able to be entered.`);
-    addElement(" ", `Enter the text into the input field: [MAX BOUNDARY] + 1`, `Only [TOP BOUNDARY] is able to be entered.`);
+    addRow(`"${label}" Input Boundary`, " ", " ");
+    addRow(" ", "Open [URL] in [BROWSER]", "The page is displayed.");
+    addRow(" ", `Enter the text into the input field: [MIN BOUNDARY] - 1`, `Only [MIN BOUNDARY] is able to be entered.`);
+    addRow(" ", `Enter the text into the input field: [MAX BOUNDARY] + 1`, `Only [TOP BOUNDARY] is able to be entered.`);
 }
 
 function fieldValue(label = "[TEXT]"){
-    addElement(`"${label}" Input Default Value`, " ", " ");
-    addElement(" ", "Open [BROWSER] and launch [URL]", "The page is displayed.");
-    addElement(" ", "Submit the form without any data", "The form is not submitted.");
-    addElement(" ", "Submit the form without any data", `Error message for "${label}" is displayed.`);  
+    addRow(`"${label}" Input Default Value`, " ", " ");
+    addRow(" ", "Open [URL] in [BROWSER]", "The page is displayed.");
+    addRow(" ", "Submit the form without any data", "The form is not submitted.");
+    addRow(" ", "Submit the form without any data", `Error message for "${label}" is displayed.`);  
 }
 
 function fieldAcceptedChars(label = "[TEXT]"){
-    addElement(`${label} Input Accepted Characters`, " ", " ");
-    addElement(" ", "Open [BROWSER] and launch [URL]", "The page is displayed.");
-    addElement(" ", "Enter the text into the input field: [CHARACTERS]", "Only [CHARACTERS] are able to be entered.");
+    addRow(`${label} Input Accepted Characters`, " ", " ");
+    addRow(" ", "Open [URL] in [BROWSER]", "The page is displayed.");
+    addRow(" ", "Enter the text into the input field: [CHARACTERS]", "Only [CHARACTERS] are able to be entered.");
     
 }
 
+function warnOnEnter(label = "WOE"){
+    addRow(`"${label}" - Display`,"","");
+    addRow(" ", "Open [URL] in [BROWSER]", "The Warn On Enter interstitial is displayed.");
+    addRow("","Click outside the interstitial","The interstitial closes.");
+    addRow(`"${label}" - X Icon`,"","");
+    addRow(" ", "Open [URL] in [BROWSER]", "The Warn On Enter interstitial is displayed.");
+    addRow("","Click the X icon.","The interstitial closes.");
+    addRow(`"${label}" - Cancel Button`,"","");
+    addRow(" ", "Open [URL] in [BROWSER]", "The Warn On Enter interstitial is displayed.");
+    addRow("","Click the Cancel button","The interstitial closes.");
+    addRow(`"${label}" - OK Button`,"","");
+    addRow(" ", "Open [URL] in [BROWSER]", "The Warn On Enter interstitial is displayed.");
+    addRow("","Click the OK button.","The [URL] is displayed.");
+    addRow(`"${label}" - Rendering`,"","");
+    addRow(" ", "Open [URL] in [BROWSER]", "The Warn On Enter interstitial is displayed.");
+    addRow("","Review the interstitial for rendering issues.","There are no rendering issues.");
+}
+
+function warnOnLeave(label = "WOL"){
+    addRow(`"${label}" - Display`,"","");
+    addRow("","Click on [LINK]","The Warn On Leave interstitial is displayed.");
+    addRow("","Click outside the interstitial","The interstitial closes.");
+    addRow(`"${label}" - X Icon`,"","");
+    addRow("","Click on [LINK]","The Warn On Leave interstitial is displayed.");
+    addRow("","Click the X icon.","The interstitial closes.");
+    addRow(`"${label}" - Cancel Button`,"","");
+    addRow("","Click on [LINK]","The Warn On Leave interstitial is displayed.");
+    addRow("","Click the Cancel button","The interstitial closes.");
+    addRow(`"${label}" - OK Button`,"","");
+    addRow("","Click on [LINK]","The Warn On Leave interstitial is displayed.");
+    addRow("","Click the OK button.","The associated page is opened in a new browser tab/window.");
+    addRow(`"${label}" - Rendering`,"","");
+    addRow("","Click on [LINK]","The Warn On Leave interstitial is displayed.");
+    addRow("","Review the interstitial for rendering issues.","There are no rendering issues.");
+}
+
 var testPlan = document.getElementById("testPlan");
-var addTestPlanText = document.getElementById("ibannerplan");
-addTestPlanText.addEventListener("click", () => {
-    addTestPlan();
+var addBannerTestPlanText = document.getElementById("ibannerplan");
+addBannerTestPlanText.addEventListener("click", () => {
+    addBannerTestPlan();
 })
 
-function addTestPlan(){
+var addEmailTestPlanText = document.getElementById("iemailplan");
+addEmailTestPlanText.addEventListener("click", () => {
+    addEmailTestPlan();
+})
+
+var addVeevaTestPlanText = document.getElementById("iveevaplan");
+addVeevaTestPlanText.addEventListener("click", () => {
+    addVeevaTestPlan();
+})
+
+var addTestPlanText = document.getElementById("iwebplan");
+addTestPlanText.addEventListener("click", () => {
+    addWebTestPlan();
+})
+
+function addWebTestPlan(){
 
     testPlan.innerHTML = "<h2>Test Plan</h2>";
 
