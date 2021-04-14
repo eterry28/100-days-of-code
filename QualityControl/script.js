@@ -84,10 +84,18 @@ function addRow(t, s, r){
     var result = tr.insertCell(2);
 
     tr.setAttribute("id", itemTable.rows.length);
-    tr.setAttribute("ondblclick", `remove(${itemTable.rows.length})`);
-
+    //tr.setAttribute("ondblclick", `remove(${itemTable.rows.length})`);
+/*
+    title.addEventListener("dblclick", () => {
+        title.setAttribute("contenteditable", true);
+    })
+*/
     title.innerHTML = t;
+
+    //step.setAttribute("contenteditable", true);
     step.innerHTML = s;
+    
+    //result.setAttribute("contenteditable", true);
     result.innerHTML = r;
 }
 
