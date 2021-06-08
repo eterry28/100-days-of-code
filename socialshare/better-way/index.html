@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -119,3 +120,126 @@
 </body>
 
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Native Social Sharing Buttons</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+              <div class="col-sm col align-self-center">
+                <span class="badge badge-primary title">Social Sharing Buttons</span>
+
+                <h3 class="question">What URL do you want to share?</h3>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">URL to Share:</span>
+                    </div>
+                    <input value="" id="urltoshare" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <h3 class="question">Which social sites do you want to share with?</h3>
+                <div class="badges">
+                    <span id="facebook-badge" class="badge badge-secondary"><i class="fa fa-facebook-square fa-4x"></i></span>
+                    <span id="linkedin-badge" class="badge badge-secondary"><i class="fa fa-linkedin fa-4x"></i></span>
+                    <span id="pinterest-badge" class="badge badge-secondary"><i class="fa fa-pinterest-square fa-4x"></i></span>
+                    <span id="twitter-badge" class="badge badge-secondary"><i class="fa fa-twitter-square fa-4x"></i></span>
+                </div>
+
+                <div class="facebook display-hide no-height">
+                    <!-- <h1>Facebook info goes here.</h1> -->
+                </div>
+                <div class="linkedin display-hide no-height">
+                    <!-- <h1>LinkedIn info goes here.</h1> -->
+                </div>
+                <div class="pinterest display-hide no-height">
+                    <div id="pinterest-details">
+                        <h4 class="detail">Pinterest needs the following information.</h4>
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Description:</span>
+                            </div>
+                            <input value="" id="DESCRIPTION" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Media URL:</span>
+                            </div>
+                            <input value="" id="MEDIA_URL" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                        </div>
+                    </div>
+                </div>
+                <div class="twitter display-hide no-height">
+                    <div id="twitter-details">
+                        <h4 class="detail">Twitter needs the following information.</h4>
+                        <input type="hidden" id="TWITTER_REF_SOURCE" value="social-sharing-buttons" />
+                        <input type="hidden" id="CUSTOM_URL" value="" />
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Text to Tweet:</span>
+                            </div>
+                            <textarea id="THE_TWEET_TEXT" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"></textarea>
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Screen name sending the Tweet:</span>
+                            </div>
+                            <input value="" id="SCREEN_NAME" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Hashtags: (optional)</span>
+                            </div>
+                            <input value="" id="HASHTAGS" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Related accounts: (optional)</span>
+                            </div>
+                            <input value="" id="RELATED_ACCOUNTS" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                        </div>
+                    </div>
+
+                </div>
+                <button type="button" id="done-btn" class="btn btn-secondary">Done!</button>
+
+                <h4 id="results" class="results display-hide">Results!</h4>
+
+                <span id="widgets"></span>
+
+            </div>
+        </div>
+    </div>
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://platform.linkedin.com/in.js" type="text/javascript">
+        lang: en_US
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
+>>>>>>> 5a4c2d936dccedf27472d6a1567cf214c4195f5b
